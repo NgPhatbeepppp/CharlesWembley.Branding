@@ -1,5 +1,6 @@
-﻿using Serilog;
-
+using Serilog;
+using Cw.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // ── Serilog (đọc từ appsettings nếu có, ghi console) ───────────────
